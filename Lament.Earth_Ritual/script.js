@@ -252,14 +252,14 @@ function setupRotation() {}
       // Select a random card from the card data
       const randomCard = cardData[Math.floor(Math.random() * cardData.length)];
 
-      // Update modal content
-      imgViewContainer.innerHTML = `
-        <img src="${randomCard.imageURL}" alt="Modal Image">
-      `;
-      modalName.innerHTML = `
-        <div class="modal-title">${randomCard.title}</div>
-        <div class="modal-description">${randomCard.description}</div>
-      `;
+// Update modal content
+imgViewContainer.innerHTML = `
+  <img src="${randomCard.imageURL}" alt="Modal Image">
+`;
+modalName.innerHTML = `
+  <div class="modal-title">${randomCard.title}</div>
+  <div class="modal-description">${randomCard.description}</div>
+`;
 
       // Play the opening animation of the modal
       tl.reversed(false);
