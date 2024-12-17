@@ -234,6 +234,13 @@ footer {
   color:#ffffff;
 }
 
+.modal-description {
+  margin-top: 1em;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+
 /* Adjustments for mobile screens */
 @media (max-width: 700px) {
   .img-modal .close-btn {
