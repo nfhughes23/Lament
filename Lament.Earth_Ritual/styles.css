@@ -239,6 +239,7 @@ footer {
   font-size: 14px;
   color: #ffffff;
   text-align: center;
+  text-transform: lowercase 
 }
 
 /* Adjustments for mobile screens */
